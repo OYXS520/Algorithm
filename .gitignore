@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/
+nbbuild/
+dist/
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# 编辑器临时文件
+*~
+
+# 测试报告
+/test-report/
