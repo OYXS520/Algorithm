@@ -23,12 +23,12 @@ class Solution_27 {
     }
 }
 
-fun test() {
+fun test27() {
     val test = intArrayOf(0, 1, 2, 2, 3, 0, 4, 2)
     println(Solution_27().removeElement(test, 2))
     println(test.contentToString())
 }
 
 fun main() {
-    test()
+    test27()
 }
