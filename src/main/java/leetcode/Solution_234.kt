@@ -2,6 +2,7 @@ package leetcode
 
 
 class ListNode(var `val`: Int) {
+    @JvmField
     var next: ListNode? = null
 }
 

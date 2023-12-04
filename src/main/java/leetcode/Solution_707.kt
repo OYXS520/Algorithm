@@ -1,7 +1,9 @@
 package leetcode
-class Solution_707{
+
+class Solution_707 {
 
 }
+
 class MyLinkedList() {
     var head: ListNode? = null
 
@@ -40,7 +42,7 @@ class MyLinkedList() {
 
     fun addAtIndex(index: Int, `val`: Int) {
         if (head == null || index == 0) {
-            if (index == 0){
+            if (index == 0) {
                 addAtHead(`val`)
             }
             return
@@ -87,13 +89,18 @@ class MyLinkedList() {
     }
 
     fun sout() {
-        var node = head
-        while (node != null) {
-            print("${node.`val`} -> ")
-            node = node.next
-        }
-        println()
+        leetcode.sout(head)
     }
+
+}
+
+fun sout(head: ListNode?) {
+    var node = head
+    while (node != null) {
+        print("${node.`val`} -> ")
+        node = node.next
+    }
+    println()
 }
 
 fun main() {
